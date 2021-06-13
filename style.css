@@ -1,0 +1,135 @@
+
+*{
+
+  margin : 0;
+  padding : 0;
+  font-family:'poppins',sans-serif;
+}
+
+.navbar{
+  display: flex;
+
+background-color: #CACCCE;
+  width: 100%;
+  height:50px;
+}
+.Bars{
+  width: 100%;
+  height: 26px;
+}
+.language{
+  margin-left: 55%;
+
+}
+.bar1 {
+  width: 150px;
+    font-weight: 600;
+  border: 1px solid #3DCAB5;
+
+    height: 26px;
+    color: #86888a;
+    background: white;
+      cursor: pointer;
+      margin-top: 10px;
+
+
+}
+.bar1:hover{
+  font-weight: 600;
+  border: 1px solid #3DCAB5;
+  color: #86888a;
+  background: white;
+  cursor: pointer;
+}
+.Categories{
+  margin-top: -25px;
+  margin-left: 36%;
+}
+.bar2 {
+  width: 150px;
+    font-weight: 600;
+  border: 1px solid #3DCAB5;
+
+    height: 26px;
+    color: #86888a;
+    background: white;
+      cursor: pointer;
+
+}
+.bar2:hover{
+  font-weight: 600;
+  border: 1px solid #3DCAB5;
+  color: #86888a;
+  background: white;
+  cursor: pointer;
+}
+
+
+.Main{
+  background: #075E54;
+
+}
+.container1{
+  max-width: 100%;
+margin-left: 55px;
+margin-right: 55px;
+background-color: white;
+  overflow: auto;
+  border-radius: 10px;
+ border: 7px solid #CACCCE;
+ margin-top: 15px;
+}
+.container2{
+  max-width: 100%;
+margin-left: 55px;
+margin-right: 55px;
+background-color: white;
+  overflow: auto;
+  margin-top: 25px;
+  border-radius: 10px;
+ border: 7px solid #CACCCE;
+}
+.container3{
+  max-width: 100%;
+margin-left: 55px;
+margin-right: 55px;
+background-color: white;
+  overflow: auto;
+  margin-top: 25px;
+  border-radius: 10px;
+ border: 7px solid #CACCCE;
+}
+
+.gallery{
+  margin:25px;
+  float:left;
+  width:190px;
+    border-radius: 4%;
+     border: 2px solid #313335;
+}
+.gallery img{
+  width: 100%;
+  height:220px;
+
+}
+.desc p{
+  padding:5px;
+  text-align: center;
+
+
+}
+.desc a{
+  font-family: sans-serif;
+  color: black;
+  background:white;
+    text-decoration:none;
+}
+@media only screen and (max-width: 700px) {
+  .navbar{
+    display: flex;
+
+  background-color: red;
+    width: 100%;
+    height:50px;
+  }
+}
